@@ -6,8 +6,19 @@ function sqrt(a, b) {
 console.log(sqrt(2, 1));
 //pow
  function pow(x, y){
-  return x ** 1 / y ;
-}                          
+  return x **  / y ;
+}    
+//abs
+function abs(x ){
+  if (  x < 0 ) {
+    	console.log(  x + 1 )
+   	} else if ( x = "" ){
+    	console.log(0)
+    	}
+      else{
+        console.log("NaN")
+      }
+};
 console.log(pow(8, 2))                         
 //ceil
 function ceil(x) {
@@ -24,18 +35,6 @@ function floor(n) {
   return n % 1 >= 0.5 ? n.toFixed(0) - 1 : n.toFixed(0)
 }
 console.log(floor(2.6));
-
-//abs
-function abs(x ){
-  if (  x < 0 ) {
-    	console.log(  x + 1 )
-   	} else if ( x = "" ){
-    	console.log(0)
-    	}
-      else{
-        console.log("NaN")
-      }
-};
 //trunc
  function trunc(x){
   return x % 1 >= 0.5 ? x.toFixed(0) - 1 : x.toFixed(0);
